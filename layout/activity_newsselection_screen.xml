@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ign_selection_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/citypic"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ign_selection_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="IGN"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fox_selection_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Fox News"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toEndOf="@+id/ign_selection_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mtv_selection_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="MTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ign_selection_btn" />
+
+    <Button
+        android:id="@+id/The_Globe_and_mail_selection_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="The Globe and Mail"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toEndOf="@+id/mtv_selection_btn"
+        app:layout_constraintTop_toBottomOf="@+id/fox_selection_btn" />
+
+    <Button
+        android:id="@+id/espn_selection_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="ESPN"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtv_selection_btn" />
+
+    <Button
+        android:id="@+id/tech_radar_selection_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Tech Radar"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/espn_selection_btn"
+        app:layout_constraintTop_toBottomOf="@+id/The_Globe_and_mail_selection_btn" />
+
+
+    <TextView
+        android:id="@+id/unews_logo"
+        android:layout_width="177dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="52dp"
+        android:text="UNEWS "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/citytv_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Citytv"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/espn_selection_btn" />
+
+    <Button
+        android:id="@+id/cp24_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="CP24"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toEndOf="@+id/citytv_btn"
+        app:layout_constraintTop_toBottomOf="@+id/tech_radar_selection_btn" />
+
+    <TextView
+        android:id="@+id/more_news_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Tap for more UNEWS"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tech_times_btn" />
+
+    <Button
+        android:id="@+id/toronto_star_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Toronto Star"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/citytv_btn" />
+
+    <Button
+        android:id="@+id/tech_times_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Tech Times"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/toronto_star_btn"
+        app:layout_constraintTop_toBottomOf="@+id/cp24_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/citypic"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/googlemap_btn"
+        android:layout_width="324dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/google_map_btn"
+        android:text="Google Maps"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/worldstar_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="WorldStarHipHop"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/vladtv_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Vladtv"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/worldstar_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="48dp"
+        android:text="UNEWS"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ufc_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="UFC"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/worldstar_btn" />
+
+    <Button
+        android:id="@+id/bbc_news_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="BBC"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/ufc_btn"
+        app:layout_constraintTop_toBottomOf="@+id/vladtv_btn" />
+
+    <Button
+        android:id="@+id/ap_news_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="Associated Press News"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ufc_btn" />
+
+    <Button
+        android:id="@+id/economist_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="The Economist"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bbc_news_btn" />
+
+    <Button
+        android:id="@+id/Npr_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="NPR"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ap_news_btn" />
+
+    <Button
+        android:id="@+id/usa_today_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/selection_round_btn"
+        android:text="USA Today"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/economist_btn"
+        app:layout_constraintVertical_bias="0.06" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
