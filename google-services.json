@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "581507389215",
+    "firebase_url": "https://unewsapplication.firebaseio.com",
+    "project_id": "unewsapplication",
+    "storage_bucket": "unewsapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581507389215:android:4df9c3e8441f94497a822a",
+        "android_client_info": {
+          "package_name": "com.example.unewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581507389215-jeqr3og4ebbe0h1522o97lmjng525fd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unewsapp",
+            "certificate_hash": "dc96831ef9e64269d4e6491f9be5fe5b38147837"
+          }
+        },
+        {
+          "client_id": "581507389215-4ajlrcm61m6of0r7bljvumpgu546mt29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unewsapp",
+            "certificate_hash": "2b48f485003e36964e78f99c9ae0f1490251b867"
+          }
+        },
+        {
+          "client_id": "581507389215-bj4elm5ofkpjtlid9qkgh3356259g3oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZsZxzngsU0Z_jE6InW2S6itrPlpw2o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581507389215-bj4elm5ofkpjtlid9qkgh3356259g3oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
