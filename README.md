@@ -1,4 +1,4 @@
-# unewsapplication
+# UNews
 Tech Stack used for this project
 Android Studio
 XML
